@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+We're the outlaws and we're pretty cool :)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -11,9 +11,10 @@ const OktaSignInWidget = ({config, onSuccess, onError}) => {
         }
 
         const widget = new OktaSignIn(config);
+        // eslint-disable-next-line
         widget.showSignInToGetTokens({
             el: widgetRef.current,
-        }). then(onSuccess).catch(onError);
+        }).then(onSuccess).catch(onError);
 
         return () => widget.remove();
     },[config, onSuccess, onError]);
